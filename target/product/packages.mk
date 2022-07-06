@@ -55,6 +55,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Repainter (kdrag0n)
 PRODUCT_PACKAGES += \
     RepainterServicePriv
